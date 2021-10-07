@@ -22,4 +22,4 @@ def hello_world():
         total_tea = int(num_tea)*value_tea
         
         final_result = total_bread + total_cake + total_coffee + total_tea
-        return render_template('index.html', href2='Bread = '+str(num_bread)+', Cake= '+str(num_cake)+', Coffee='+str(num_coffee)+', Tea='+str(num_tea)+',  Total = '+str(final_result))
+        return render_template('index.html', href2='Bread='+str(num_bread)+', Cake='+str(num_cake)+', Coffee='+str(num_coffee)+', Tea='+str(num_tea)+',  Total = '+str(final_result))
